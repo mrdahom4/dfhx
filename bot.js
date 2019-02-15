@@ -112,15 +112,6 @@ let embed = new Discord.RichEmbed()
 };
 });
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
 
-client.on("ready", () => { // كود رينبو
-  function lol() {
-    client.guilds.get('537260282502709249').roles.find("name", "Js - Vip Rainbow").setColor("RANDOM");
-  };
-  setInterval(lol, 1000);
-});
 
 client.login(process.env.BOT_TOKEN);
