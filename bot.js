@@ -57,8 +57,6 @@ client.on("message", msg =>{
   var randomkeys = ["SdkdKIkfgjhg50","vdfgkfgKKndf030","xjgJBskkjd652"]
   var gift = "";
   for (var y = 0; y < 16; y++) {   ///16
-    gift +=  `${randomkeys.charAt(Math.floor(Math.random() * randomkeys.length))}`;
-  }
   giftKeys[gift] = role;
   let embed = new Discord.RichEmbed()
   .setColor("#111111")
