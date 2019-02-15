@@ -108,7 +108,7 @@ let embed = new Discord.RichEmbed()
     msgs.edit(embed)
   }});
 };
-});
+
 
 
 
