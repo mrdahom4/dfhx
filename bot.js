@@ -31,7 +31,7 @@ let devs = ["525434548939653151"];
 client.on("message", msg =>{
   let args = msg.content.split(" ").slice(1)[0];
   let cmd = msg.content.split(' ')[0]
-  if(cmd === `${prefix}giftR`){
+  if(cmd === `#giftR`){
   let roleW = msg.mentions.roles.first();
   if(!devs.includes(msg.author.id)){
     let embed = new Discord.RichEmbed()
@@ -75,7 +75,7 @@ client.on("message", msg =>{
   .setFooter(client.user.username,client.user.displayAvatarURL)  
   msg.author.send(embed2);
 };
-if( cmd === `${prefix}used`){
+if( cmd === `#used`){
  
   if(!args) {  
     let embed = new Discord.RichEmbed()
