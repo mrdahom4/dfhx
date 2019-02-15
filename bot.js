@@ -25,7 +25,7 @@ client.on('ready', () => {
   console.log('')
   console.log('')
 });
-
+var prefix = "#";
 giftKeys = {};
 let devs = ["525434548939653151"];
 client.on("message", msg =>{
